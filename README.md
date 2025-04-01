@@ -1,1 +1,1 @@
-# rede-school-project
+# redi-school-project
