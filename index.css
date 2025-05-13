@@ -3,6 +3,7 @@
         background-color: rgb(143, 210, 146);
         text-decoration: none;
      }
+
      .header{
         display: flex;
         justify-content: space-between;
@@ -11,44 +12,50 @@
         color:rgb(20, 241, 57);
         font-family:  sans-serif;
     }
+
       .header-section {
        display: flex;
        align-items: center;
        padding: 10px 5px;
        font-size: 40px;
     }
+
       .header-sections {
        display: flex;
        align-items: center;
        padding: 10px 5px;
        font-size: 30px;
     }
+
      h1 {
-       
         font-size: 5rem;
         font-weight: bold;
+        text-align: center;
     }
     
-    
-   
     .header-item {
         padding: 10px 15px;
         font-size: 20px;
         margin-left: 5px;
     }
+    
     .header-item:hover {
         background-color:#FF9900;
         border-radius:50px;
     }
+
     .header-logo {
         font-weight: bold;
     }
+
     .header-button {
         cursor: pointer;
     }
+
     .image-container {
         padding-top: 50px;
     }
+
     .input-container {
          display: flex;
          flex-direction: column;
@@ -57,5 +64,24 @@
          padding: 5rem;
          text-align: center;
          border-radius: 5rem;
+         margin: auto;
     }
     
+    .inputs {
+        font-size: 40px;
+        padding: 10px;
+        height: 40px;
+        border-radius: 25px;
+}
+
+form p {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+    
+.footer-1 {
+    display: flex;
+    padding: 120px;
+    gap: 80px;
+    flex-direction: row;
+}  
