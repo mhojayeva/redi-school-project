@@ -59,16 +59,16 @@
     .input-container {
          display: flex;
          flex-direction: column;
-         background-color: white;
+         background-color: rgb(250, 242, 242);
          text-align: center;
-         padding: 5rem;
+         padding: 3rem;
          text-align: center;
          border-radius: 5rem;
-         margin: auto;
+         margin: 8rem;
     }
     
     .inputs {
-        font-size: 40px;
+        font-size: 30px;
         padding: 10px;
         height: 40px;
         border-radius: 25px;
@@ -81,7 +81,12 @@ form p {
     
 .footer-1 {
     display: flex;
-    padding: 120px;
+    padding: 30px;
     gap: 80px;
     flex-direction: row;
+    cursor: pointer;
 }  
+
+.footer-2 {
+    text-align: center;
+}
