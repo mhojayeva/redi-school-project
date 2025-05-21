@@ -48,10 +48,5 @@ function calculateResult () {
         const result = amount / rates.euro
         console.log(result)
         resultDisplay.value = result
-
     } 
-
-
-
-
 }
