@@ -64,7 +64,6 @@
          padding: 3rem;
          text-align: center;
          border-radius: 2rem;
-         margin: 8rem;
     }
     
     .inputs {
@@ -89,4 +88,17 @@ form p {
 
 .footer-2 {
     text-align: center;
+} 
+
+button {
+   margin: 40px;
+   padding: 10px 50px;
+   background-color: green;
+   color: white;
+   font-size: 40px;
 }
+
+
+
+
+

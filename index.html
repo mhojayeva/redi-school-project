@@ -12,35 +12,31 @@
             <div class="header-section-logo">MK currency converter</div>
          </div>
          <div class="header-sections"> 
-            <div class="header-item header-button"> Setting</div>
-            <div class="header-item header-button"> Help</div>
-            <div class="header-item header-button"> Sign-in</div>
+            <div class="header-item header-button">Setting</div>
+            <div class="header-item header-button">Help</div>
+            <div class="header-item header-button">Sign-in</div>
          </div>
     </nav>
-
     <h1>CURRENCY CONVERTER</h1>
-
      <div class="input-container">
         <form action="">
           <p>Amount</p>
-          <input type="number" id="one" class="inputs">
+          <input type="number" id="amount" class="inputs">
           <p>Conversion</p>
-           <select name="from" id="two">
+           <select name="from" id="selector">
             <option value="">-- Choose an option --</option>
             <option value="usd-eur">USD-EUR</option>
             <option value="eur-usd">EUR-USD</option>
+             <option value="usd-gbp">USD-GBP</option>
            </select>
-
-           <p>Result</p>
-           <input type="number" id="result" class="inputs" readonly>
+           <br>
+          <!--- <button>Submit</button>--->
         </form>
-
+           <p>Result</p>
+           <input type="text" id="result" class="inputs" disabled>
      </div>
-
-
-    <footer>
-     
-     <div class="footer-1">
+   <footer>
+   <div class="footer-1">
        <h3 class="footer-item">International money transfers:</h3>
        <h3 class="footer-item">Send money to Europe:</h3>
        <h3 class="footer-item">Send money to United States:</h3>
@@ -52,11 +48,10 @@
        <h3 class="footer-item">Send money to Turkie:</h3>
     </div>
     <hr>
-
     <h4 class="footer-2">The world changes — and so does currency.</h4>
     <h4 class="footer-2"> We may not know how to brew coffee, but currency exchange is where we excel.</h4>
     <h4 class="footer-2"> All investment services are provided by the respective MK Assets entity in your location.</h4>
-    </footer>
+   </footer>
+   <script type="text/javascript" src="./index.js"></script>
 </body>
-
 </html>
