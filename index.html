@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0, minimum scale=1.0initial-scale=1.0 ">
     <title>Currency Converter</title>
     <link rel="stylesheet" href="index.css">
 </head>
@@ -23,17 +23,16 @@
           <p class="p-styles">Amount</p>
           <input type="number" id="amount" class="inputs">
           <p class="p-styles">Conversion</p>
-           <select name="from" id="selector">
+           <select name="from" id="selector" class="inputs">
             <option value="">-- Choose an option --</option>
             <option value="usd-eur">USD-EUR</option>
             <option value="eur-usd">EUR-USD</option>
              <option value="usd-gbp">USD-GBP</option>
            </select>
            <br>
-          <!--- <button>Submit</button>--->
-        </form>
-           <p class="p-styles">Result</p>
+          <p class="p-styles">Result</p>
            <input type="text" id="result" class="inputs" disabled>
+        </form>
      </div>
    <footer>
    <div class="footer-1">
