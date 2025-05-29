@@ -1,7 +1,9 @@
 const rates = {
      usd: 1,
      euro: 1.15,
-     gpb: 0.74
+     gpb: 0.74,
+     inr: 85.47,
+     gel: 2.74
 };
 
 const dollar = "dollar"
@@ -48,5 +50,17 @@ function calculateResult () {
         const result = amount / rates.euro
         console.log(result)
         resultDisplay.value = result
-    } 
+
+    } if (currency === "usd-inr") {
+        console.log("amount", amount)
+        const result = amount * rates.inr
+        console.log(result)
+        resultDisplay.value = result
+
+    } if (currency === "usd-gel") {
+        console.log("amount", amount)
+        const result = amount * rates.gel
+        console.log(result)
+        resultDisplay.value = result
+    }
 }
