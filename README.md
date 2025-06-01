@@ -50,37 +50,3 @@ A simple web application for converting currencies: US dollars, euros, rupees, a
 ## 👩‍💻 Author
 
 Created by: Maysa Hojayeva
-
----
-
-## 📸 Screenshot (optional)
-
-*(Add a screenshot of the app interface here if you like)*
-2. Open the `index.html` file in your web browser.
-
----
-
-## 🌐 Technologies Used
-
-- HTML
-- CSS
-- JavaScript (fetch API to get currency rates)
-
----
-
-## 💡 Notes
-
-- Currency rates are fetched from the [exchangerate.host](https://exchangerate.host) API.
-- An internet connection is required for proper functionality.
-
----
-
-## 👩‍💻 Author
-
-Created by: [Your name or username]
-
-
-
-
-
-
